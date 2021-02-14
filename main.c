@@ -7,6 +7,7 @@ int area;
 float m;
 int n;
 char c; 
+int a;
 
 int main(void){
 
@@ -15,6 +16,7 @@ perimeter = 2* 3 + 2*5;
 m = 2.0;
 n = 2;
 c = 'A';
+a = 5;
 
  printf("Exercise 4-1\n");
 
@@ -54,6 +56,11 @@ printf("Exercise 4-5\n");
 printf("%f as %%d: %d\n", m, m);
 printf("%d as %%f: %f\n", n, n);
 printf("%c as %%d: %d\n", c, c);
+ 
+printf("Exerciese 4-6\n");
+ 
+printf("The are area of a cube with 5 units of width and lenght is %d\n", a*a);
+ 
 
 return (0);
 
